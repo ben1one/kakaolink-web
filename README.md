@@ -6,7 +6,7 @@
 
 모바일 웹에서 [카카오스토리 링크 데모](http://kakao.github.com/kakaolink-web/)를 확인할 수 있습니다.
 
-** 카카오톡 링크는 카카오 개발자 사이트에서 제공하는 Javascript SDK](https://dev.kakao.com/docs/js#카카오톡-링크)를 통해 사용 가능합니다.
+** 카카오톡 링크는 [카카오 개발자 사이트에서 제공하는 Javascript SDK](https://dev.kakao.com/docs/js#카카오톡-링크)를 통해 사용 가능합니다.
 
 텍스트/URL 포스팅하기
 -------------
