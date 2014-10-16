@@ -17,15 +17,6 @@
     }
 
     var app = {
-        talk: {
-            base_url: "kakaolink://sendurl?",
-            apiver: "2.0.1",
-            store: {
-                android: "market://details?id=com.kakao.talk",
-                ios: "http://itunes.apple.com/app/id362057947"
-            },
-            package: "com.kakao.talk"
-        },
         story: {
             base_url: "storylink://posting?",
             apiver: "1.0",

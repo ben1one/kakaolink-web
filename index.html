@@ -5,41 +5,10 @@
     <meta name="viewport" content="initial-scale=1,minimum-scale=1, maximum-scale=1">
     <script type="text/javascript" src="./kakao.link.js"></script>
 <script type="text/javascript">
-function executeURLLink()
-{
-    /* 
-    msg, url, appid, appname은 실제 서비스에서 사용하는 정보로 업데이트되어야 합니다. 
-    */
-    kakao.link("talk").send({
-        msg : "카카오링크를 사용하여 메세지를 전달해보세요.\n 줄바꿈",
-        url : "http://link.kakao.com",
-        appid : "m.kakao.com",
-        appver : "2.0",
-        appname : "카카오",
-        type : "link"
-    });
-
-}
-
-function executeAPPLink()
-{
-    /* 
-      msg, url, appid, appname, metainfo는 실제 서비스에서 사용하는 정보로 업데이트되어야 합니다. 
-    */
-    kakao.link("talk").send({
-        msg : "카카오링크를 사용하여 메세지를 전달해보세요.\n 줄바꿈",
-        url : "http://link.kakao.com",
-        appid : "m.kakao.com",
-        appver : "2.0",
-        appname : "카카오",
-        metainfo : JSON.stringify({metainfo : [ {os:"android", devicetype: "phone",installurl:"market://details?id=com.kakao.talk", executeurl : "kakaoagit://testtest"},{os:"ios", devicetype:"phone",installurl:"itms-apps://itunes.apple.com/us/app/kakaotalk/id362057947?mt=8",executeurl : "agitlink://testtest"}]}),
-        type : "app"
-    });
-}
 
 function executeKakaoStoryLink()
 {
-    kakao.link("story").send({   
+    kakao.link("story").send({
         post : "http://m.media.daum.net/entertain/enews/view?newsid=20120927110708426",
         appid : "m.media.daum.net",
         appver : "1.0",
@@ -66,26 +35,17 @@ div {
     line-height: 40px;
     margin:0px auto;
 }
-img { 
+img {
     border-radius: 5px;
     margin:0px auto;
 }
 </style>
 </head>
 <body>
-    <img src="./kakaotalk.png"/>
-    <br/><br/>
-    <div onclick="javascript:executeURLLink()">카카오톡 URL 전달</div>
-    <br/>
-    <div onclick="javascript:executeAPPLink()">카카오톡 APP Link 전달</div>
-
-    <br/><br/>
-
     <img src="./kakaostory.png"/>
     <br/><br/>
     <div onclick="javascript:executeKakaoStoryLink()">카카오스토리 링크</div>
     <br/>
-    
 </body>
 
 </html>
