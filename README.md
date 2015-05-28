@@ -1,5 +1,8 @@
-카카오스토리 링크SDK (Mobile Web)
-==============
+# [DEPRECATED] 카카오스토리 링크SDK (Mobile Web)
+
+> 본 저장소는 더이상 업데이트되지 않습니다. Pull Request 및 Issue를 보내셔도 반영되지 않습니다. Kakao Link API에 대한 정보는 [Kakao Developers 사이트](https://developers.kakao.com)에서 업데이트될 예정이며,관련 문의 및 응답은 [DevTalk/개발자포럼](https://devtalk.kakao.com)을 이용해주세요.
+
+카카오링크 API는 외부 앱이나 모바일 웹페이지에서 카카오톡으로 링크를 보낼 수 있고, 커스텀스킴방식으로 구현되어 어느 앱에서나 간단하게 적용할 수 있습니다.
 
 카카오스토리 링크SDK를 이용하여 사용자가 웹사이트에서 카카오스토리로 글을 올릴 수 있습니다.<br>
 이와는 별도로 로그인 후 앱에서 카카오스토리로 직접 포스팅할 수 있는 API를 [카카오 개발자 사이트](https://dev.kakao.com)에서 제공하니 참고하세요!
