@@ -7,7 +7,7 @@
 카카오스토리 링크SDK를 이용하여 사용자가 웹사이트에서 카카오스토리로 글을 올릴 수 있습니다.<br>
 이와는 별도로 로그인 후 앱에서 카카오스토리로 직접 포스팅할 수 있는 API를 [카카오 개발자 사이트](https://dev.kakao.com)에서 제공하니 참고하세요!
 
-모바일 웹에서 [카카오스토리 링크 데모](http://kakao.github.com/kakaolink-web/)를 확인할 수 있습니다.
+모바일 웹에서 [카카오스토리 링크 데모](http://kakao.github.io/)를 확인할 수 있습니다.
 
 ** 카카오톡 링크는 [카카오 개발자 사이트에서 제공하는 Javascript SDK](https://dev.kakao.com/docs/js#카카오톡-링크)를 통해 사용 가능합니다.
 
